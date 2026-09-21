@@ -1,0 +1,36 @@
+{
+  "version": 7,
+  "stage": "planning",
+  "pending": {
+    "kind": "question",
+    "phase": "planning",
+    "askedAt": "2026-09-21T19:26:18.988Z",
+    "requestedAt": "2026-09-21T19:26:18.988Z",
+    "chatBody": "Who is this website for, and what should visitors be able to accomplish in a typical visit?\n\nIs it primarily a public marketing site, a place to browse or buy something, a booking or inquiry flow, or something else?\n\nOr if you'd rather I pick the scope and assumptions, just say so and I'll draft the roadmap with a sensible default.",
+    "summary": "Awaiting core audience and outcome"
+  },
+  "questionRounds": {
+    "planning": 1,
+    "design": 0
+  },
+  "artifacts": {
+    "roadmap": {
+      "path": "memory/roadmap.md",
+      "version": null,
+      "archivedPath": null,
+      "contentDigest": null,
+      "approvedVersion": null
+    },
+    "design": {
+      "path": "memory/design-brief.md",
+      "version": null,
+      "archivedPath": null,
+      "contentDigest": null,
+      "approvedVersion": null,
+      "guidelinesPath": "memory/design-guidelines.json",
+      "guidelinesArchivedPath": null
+    }
+  },
+  "lastSummary": "Planning discovery started; core audience and outcome are unresolved.",
+  "updatedAt": "2026-09-21T19:26:19.071Z"
+}

@@ -6,7 +6,7 @@
 - **Primary jobs to be done**: Understand the practice and its care offerings, find practical visitor information, and request contact about an appointment without navigating clinical paperwork.
 
 ## Direction Summary
-Propose **Grounded Welcome**: a typography-led, light website with warm paper surfaces, deep plum emphasis, and clear humanist lettering. A prospective patient or caregiver may be reading on a phone in daylight between other tasks, so legibility and a direct path to contact matter more than immersive decoration. Broad left-aligned headings, open service rows, and quiet horizontal rules create a recognizable identity without a stock-photo hero or elaborate assets. This is a designer-selected proposal following permission to choose, not a previously selected brand or reference style.
+Approved **Grounded Welcome**: a typography-led, light website with warm paper surfaces, deep plum emphasis, and clear humanist lettering. A prospective patient or caregiver may be reading on a phone in daylight between other tasks, so legibility and a direct path to contact matter more than immersive decoration. Broad left-aligned headings, open service rows, and quiet horizontal rules create a recognizable identity without a stock-photo hero or elaborate assets. This designer-selected direction followed permission to choose and was then approved for implementation; it is not attributed to an existing reference brand.
 
 ## Brand and Mood
 - **Brand personality**: Plainspoken, considerate, grounded, quietly confident.

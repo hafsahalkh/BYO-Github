@@ -2,12 +2,15 @@
   "version": 7,
   "stage": "implementation",
   "pending": {
-    "kind": "question",
-    "phase": "implementation",
-    "askedAt": "2026-10-12T21:13:04.688Z",
-    "requestedAt": "2026-10-12T21:13:04.688Z",
-    "chatBody": "Your design is approved. For your first website build, I’ll keep it simple:\n\n**What I’ll build:**\n- **Home:** a responsive Harbor Wellness landing page with a clear care overview and appointment-request button.\n- **Services:** a short care-information page using the same simple navigation and styling.\n- **Request an appointment:** a no-account form for name, preferred contact method, contact details, and broad service interest. Requests will be saved, not simulated.\n- **Request received:** confirmation shown only after a successful submission, clearly stating that no appointment is booked yet.\n\nThese four screens give your prospective patients and caregivers a complete path from learning about the practice to requesting contact, without building a full patient portal. Phone, tablet, and desktop layouts are included, and your Specode favicon stays.\n\n**Not included yet:** live appointment availability, patient accounts, staff request management, payments, email/SMS notifications, or other third-party integrations. Practice-specific content will stay clearly marked for replacement until you provide approved details.\n\nReply **approve**, **continue**, or **yes build it** to start, or describe what you want changed.",
-    "summary": "Approve public home, services, minimal persisted appointment request, and honest receipt; no integrations or protected roles."
+    "kind": "review",
+    "phase": "design",
+    "artifact": "design",
+    "path": "memory/design-brief.md",
+    "version": 2,
+    "askedAt": "2026-10-12T21:18:35.579Z",
+    "requestedAt": "2026-10-12T21:18:35.579Z",
+    "chatBody": "Grounded Welcome remains your approved design: warm paper, deep plum, Source Sans 3, and open typography-led layouts. Only the approval status was updated; the design choices are unchanged.",
+    "summary": "Corrected stale proposal/awaiting-approval language to reflect the existing explicit approval. No visual, interaction, or scope decisions changed."
   },
   "questionRounds": {
     "planning": 1,
@@ -16,21 +19,21 @@
   "artifacts": {
     "roadmap": {
       "path": "memory/roadmap.md",
-      "version": 3,
-      "archivedPath": "memory/roadmaps/v3-d4989dd60e86a0927fa973de7c703f806cdeeb9bb18553dd350bb5a09fdfbc09.md",
-      "contentDigest": "sha256:d4989dd60e86a0927fa973de7c703f806cdeeb9bb18553dd350bb5a09fdfbc09",
-      "approvedVersion": 3
+      "version": 4,
+      "archivedPath": "memory/roadmaps/v4-94e3d1ac0a1ff8842553cb78ea3720fb37f31a3f0568cc3b6bf02dade1f2a9f7.md",
+      "contentDigest": "sha256:94e3d1ac0a1ff8842553cb78ea3720fb37f31a3f0568cc3b6bf02dade1f2a9f7",
+      "approvedVersion": 4
     },
     "design": {
       "path": "memory/design-brief.md",
-      "version": 1,
-      "archivedPath": "memory/design-briefs/v1-62a5c6468abb0ccc04386c6ecd9c44859e26476c140b60d903e202a2390ff0b1.md",
-      "contentDigest": "sha256:62a5c6468abb0ccc04386c6ecd9c44859e26476c140b60d903e202a2390ff0b1",
+      "version": 2,
+      "archivedPath": "memory/design-briefs/v2-fe6490bf521e6d9f2736708f3167ea65bc6608d5841f25bc9102a599a3372223.md",
+      "contentDigest": "sha256:fe6490bf521e6d9f2736708f3167ea65bc6608d5841f25bc9102a599a3372223",
       "approvedVersion": 1,
       "guidelinesPath": "memory/design-guidelines.json",
-      "guidelinesArchivedPath": "memory/design-guidelines/v1-62a5c6468abb0ccc04386c6ecd9c44859e26476c140b60d903e202a2390ff0b1.json"
+      "guidelinesArchivedPath": "memory/design-guidelines/v2-fe6490bf521e6d9f2736708f3167ea65bc6608d5841f25bc9102a599a3372223.json"
     }
   },
-  "lastSummary": "Initial website design approved; awaiting approval of simple four-screen first website build slice.",
-  "updatedAt": "2026-10-12T21:13:04.784Z"
+  "lastSummary": "Corrected stale proposal/awaiting-approval language to reflect the existing explicit approval. No visual, interaction, or scope decisions changed.",
+  "updatedAt": "2026-10-12T21:18:35.670Z"
 }

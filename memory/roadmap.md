@@ -58,13 +58,14 @@ The full coherent public marketing site is broader than the first proof slice, b
 ## What's Been Implemented
 - [x] Scaffold favicon publishing fix: preserved the existing Specode PNG favicon and wordmark; removed the unused generic SVG favicon from source and verified production output excludes it. Typecheck/lint and frontend build pass; release upload success remains unverified. No public website scope was built.
 - [x] Targeted scaffold security fix: HIPAA-AC-012 issue 33458d52-6d8c-4fde-8516-c2c5106c0e9f verified fixed; auth uses server-set Secure HttpOnly cookies, same-origin preview/static transport, legacy credential cleanup, and executed session invalidation. No website scope was built in this remediation.
-- [ ] Public landing/home page
-- [ ] Public information pages and responsive navigation
-- [ ] General appointment-request and confirmation flow
-
-> Update this section as features are built. Check items off as they become real.
+- [x] Public landing/home page: Grounded Welcome warm paper/plum, self-hosted Source Sans 3, open service rows, visitor details, FAQs, and request actions. All unverified practice information is labeled preview content.
+- [x] Focused services page and shared responsive public navigation: inline mobile menu, keyboard/Escape support, skip link, visible focus, and footer. Specode PNG favicon and iframe tracker preserved; existing secure auth scaffold unchanged and absent from public navigation.
+- [x] General appointment-request and guarded receipt: no account, required requestor name and selected email/phone contact only, optional broad preview service interest including undecided. Shared client/server validation, blur/submit errors, first-invalid focus, real pending state and duplicate-press prevention. Contact details stay out of URLs, receipts, logs, and browser persistence; failure retains values in page memory.
+- [x] Minimal durable Convex request storage and server acknowledgment, with same-transaction write auditing via the existing helper. `contact_requests` is treated as care-linked sensitive contact data; audit metadata is only `op: create`, containing no contact values. No public read/list endpoints or audit viewer.
+- [x] Existing frontend typecheck/lint, explicit Convex typecheck, production Vite build, and sandbox backend sync completed successfully. Responsive and interaction requirements inspected in source; no browser interaction checks or new test harness.
+- [ ] Remaining full-MVP practice/care approach and new-visitor content, with practice-approved service descriptions and verified location, hours, contact details, and follow-up expectations.
 
 ## Next Steps
-- Build the landing page, focused services information, and no-account request path as the first public proof slice.
-- Expand the approved public content into the complete MVP information architecture and validate it across phone, tablet, and desktop use.
-- Confirm whether future operational follow-up should remain outside the site or become a separately scoped request-management workflow.
+- Review the four-screen proof slice in the preview and replace neutral sample content with practice-approved care, service, visitor, contact, location, and hours information before public launch. Preview metadata currently prevents search indexing.
+- Expand approved practice/care approach and new-visitor information into the remaining full-MVP public content without adding accounts or integrations.
+- Separately decide how requests will be handled operationally before accepting live patient requests. Current functionality is durable storage plus on-site acknowledgment only; there is no staff inbox, email/SMS notification, or guaranteed follow-up. Staff request management, actual booking, accounts, payments, messaging, and sensitive intake remain out of scope.

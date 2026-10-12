@@ -2,6 +2,13 @@ import { defineSchema, defineTable } from "convex/server";
 import { v } from "convex/values";
 
 export default defineSchema({
+  // Care-linked contact data: submit-only public path, never publicly readable.
+  contact_requests: defineTable({
+    name: v.string(),
+    contactMethod: v.union(v.literal("email"), v.literal("phone")),
+    contactDetail: v.string(),
+    serviceInterest: v.union(v.literal("undecided"), v.literal("general"), v.literal("wellbeing"), v.literal("ongoing")),
+  }),
   audit_logs: defineTable({
     actor_id: v.optional(v.string()),
     action: v.union(v.literal("PHI_READ"), v.literal("PHI_WRITE")),

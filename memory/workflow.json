@@ -1,16 +1,13 @@
 {
   "version": 7,
-  "stage": "design",
+  "stage": "implementation",
   "pending": {
-    "kind": "review",
-    "phase": "design",
-    "artifact": "design",
-    "path": "memory/design-brief.md",
-    "version": 1,
-    "askedAt": "2026-10-12T21:08:52.463Z",
-    "requestedAt": "2026-10-12T21:08:52.463Z",
-    "chatBody": "I’m proposing **Grounded Welcome** for your Harbor Wellness website: a simple, approachable design that helps visitors understand your care and reach out without feeling rushed.\n\n**Design direction:**\n- Warm paper backgrounds, deep plum actions, and dark readable text create a restrained identity without generic medical-blue styling.\n- Clear humanist typography, generous headings, and open service sections replace stock photography and repetitive card grids.\n- Simple top navigation becomes a compact inline menu on phones, with a consistent **Request an appointment** action.\n- A short, no-account form collects your visitor’s name, preferred contact method, corresponding contact detail, and optional service interest.\n- Accessible validation and honest loading/error states support the form. **Request received** appears only after actual acceptance and clearly says no appointment has been booked.\n- Your chosen Specode favicon stays; Harbor Wellness gets a simple text wordmark rather than an invented logo.\n\n**Deferred for later:**\n- Live booking, accounts, staff tools, payments, and integrations.\n\nPractice descriptions and contact details remain clearly marked placeholders until you supply approved content.\n\nReply **approve** or **continue** to proceed, or describe any changes you’d like.",
-    "summary": "Grounded Welcome design drafted for Harbor Wellness public website; awaiting design review."
+    "kind": "question",
+    "phase": "implementation",
+    "askedAt": "2026-10-12T21:13:04.688Z",
+    "requestedAt": "2026-10-12T21:13:04.688Z",
+    "chatBody": "Your design is approved. For your first website build, I’ll keep it simple:\n\n**What I’ll build:**\n- **Home:** a responsive Harbor Wellness landing page with a clear care overview and appointment-request button.\n- **Services:** a short care-information page using the same simple navigation and styling.\n- **Request an appointment:** a no-account form for name, preferred contact method, contact details, and broad service interest. Requests will be saved, not simulated.\n- **Request received:** confirmation shown only after a successful submission, clearly stating that no appointment is booked yet.\n\nThese four screens give your prospective patients and caregivers a complete path from learning about the practice to requesting contact, without building a full patient portal. Phone, tablet, and desktop layouts are included, and your Specode favicon stays.\n\n**Not included yet:** live appointment availability, patient accounts, staff request management, payments, email/SMS notifications, or other third-party integrations. Practice-specific content will stay clearly marked for replacement until you provide approved details.\n\nReply **approve**, **continue**, or **yes build it** to start, or describe what you want changed.",
+    "summary": "Approve public home, services, minimal persisted appointment request, and honest receipt; no integrations or protected roles."
   },
   "questionRounds": {
     "planning": 1,
@@ -29,11 +26,11 @@
       "version": 1,
       "archivedPath": "memory/design-briefs/v1-62a5c6468abb0ccc04386c6ecd9c44859e26476c140b60d903e202a2390ff0b1.md",
       "contentDigest": "sha256:62a5c6468abb0ccc04386c6ecd9c44859e26476c140b60d903e202a2390ff0b1",
-      "approvedVersion": null,
+      "approvedVersion": 1,
       "guidelinesPath": "memory/design-guidelines.json",
       "guidelinesArchivedPath": "memory/design-guidelines/v1-62a5c6468abb0ccc04386c6ecd9c44859e26476c140b60d903e202a2390ff0b1.json"
     }
   },
-  "lastSummary": "Grounded Welcome design drafted for Harbor Wellness public website; awaiting design review.",
-  "updatedAt": "2026-10-12T21:08:52.551Z"
+  "lastSummary": "Initial website design approved; awaiting approval of simple four-screen first website build slice.",
+  "updatedAt": "2026-10-12T21:13:04.784Z"
 }

@@ -5,7 +5,8 @@ import { authClient, createAuth } from "./auth";
 
 const http = httpRouter();
 
-authClient.registerRoutes(http, createAuth, { cors: true });
+// Native Set-Cookie responses are served on the frontend origin (proxied in dev).
+authClient.registerRoutes(http, createAuth);
 registerStaticRoutes(http, components.selfHosting);
 
 export default http;

@@ -1,6 +1,6 @@
 import { betterAuth } from "better-auth";
 import { createClient, convexAdapter, type GenericCtx } from "@convex-dev/better-auth";
-import { convex, crossDomain } from "@convex-dev/better-auth/plugins";
+import { convex } from "@convex-dev/better-auth/plugins";
 import { emailOTP, twoFactor } from "better-auth/plugins";
 import type { GenericDataModel } from "convex/server";
 import { components } from "./_generated/api";
@@ -33,18 +33,6 @@ function isAllowedOrigin(origin: string): boolean {
   return false;
 }
 
-// Get the dynamic site URL from request origin (for crossDomain plugin)
-function getDynamicSiteUrl(request?: Request): string {
-  const requestOrigin = request?.headers.get("origin");
-
-  if (requestOrigin && isAllowedOrigin(requestOrigin)) {
-    return requestOrigin;
-  }
-
-  // Fall back to configured site URL
-  return fallbackSiteUrl;
-}
-
 // Get trusted origins based on the incoming request
 function getTrustedOrigins(request?: Request): string[] {
   const origins: string[] = [];
@@ -71,15 +59,16 @@ function getTrustedOrigins(request?: Request): string[] {
   return origins;
 }
 
-export function createAuth(ctx: GenericCtx<GenericDataModel>, request?: Request) {
-  // Use the request origin as siteUrl if it matches allowed patterns
-  const siteUrl = getDynamicSiteUrl(request);
-
+export function createAuth(ctx: GenericCtx<GenericDataModel>) {
   return betterAuth({
     baseURL: process.env.CONVEX_SITE_URL,
     secret: process.env.BETTER_AUTH_SECRET,
     database: convexAdapter(ctx, components.betterAuth),
     trustedOrigins: getTrustedOrigins,
+    advanced: {
+      useSecureCookies: true,
+      defaultCookieAttributes: { httpOnly: true, secure: true, sameSite: "lax" },
+    },
     session: {
       cookieCache: {
         enabled: false,
@@ -134,7 +123,6 @@ export function createAuth(ctx: GenericCtx<GenericDataModel>, request?: Request)
         backupCodeOptions: { amount: 10, length: 8 },
       }),
       convex({ authConfig }),
-      crossDomain({ siteUrl }),
     ],
   });
 }

@@ -9,10 +9,10 @@
   "artifacts": {
     "roadmap": {
       "path": "memory/roadmap.md",
-      "version": 2,
-      "archivedPath": "memory/roadmaps/v2-8aeb794fe31c658fd3c201a41b390e165b87fedb8f7e8c87509ac28e4afa1048.md",
-      "contentDigest": "sha256:8aeb794fe31c658fd3c201a41b390e165b87fedb8f7e8c87509ac28e4afa1048",
-      "approvedVersion": 2
+      "version": 3,
+      "archivedPath": "memory/roadmaps/v3-d4989dd60e86a0927fa973de7c703f806cdeeb9bb18553dd350bb5a09fdfbc09.md",
+      "contentDigest": "sha256:d4989dd60e86a0927fa973de7c703f806cdeeb9bb18553dd350bb5a09fdfbc09",
+      "approvedVersion": 3
     },
     "design": {
       "path": "memory/design-brief.md",
@@ -24,6 +24,6 @@
       "guidelinesArchivedPath": null
     }
   },
-  "lastSummary": "Recorded only the verified HIPAA-AC-012 scaffold remediation; all website build items remain unfinished.",
-  "updatedAt": "2026-10-12T20:13:07.073Z"
+  "lastSummary": "Recorded completed narrow favicon asset fix and local verification; public website scope and next build slice remain unchanged.",
+  "updatedAt": "2026-10-12T20:26:59.791Z"
 }

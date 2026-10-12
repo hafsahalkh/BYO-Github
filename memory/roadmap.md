@@ -56,6 +56,7 @@ The full coherent public marketing site is broader than the first proof slice, b
 - None. No third-party integration is raised or required for the current public-site scope.
 
 ## What's Been Implemented
+- [x] Scaffold favicon publishing fix: preserved the existing Specode PNG favicon and wordmark; removed the unused generic SVG favicon from source and verified production output excludes it. Typecheck/lint and frontend build pass; release upload success remains unverified. No public website scope was built.
 - [x] Targeted scaffold security fix: HIPAA-AC-012 issue 33458d52-6d8c-4fde-8516-c2c5106c0e9f verified fixed; auth uses server-set Secure HttpOnly cookies, same-origin preview/static transport, legacy credential cleanup, and executed session invalidation. No website scope was built in this remediation.
 - [ ] Public landing/home page
 - [ ] Public information pages and responsive navigation

@@ -1,0 +1,141 @@
+{
+  "directionSummary": "Grounded Welcome: a restrained, typography-led public practice website using warm paper, deep plum, clear humanist type, and open left-aligned composition. Help prospective patients and caregivers understand care and request contact without implying real-time booking. Designer-selected proposal, awaiting approval.",
+  "brand": {
+    "personality": ["plainspoken", "considerate", "grounded", "quietly confident"],
+    "mood": "An approachable, composed public front door, neither a clinical system nor a luxury spa.",
+    "keywords": ["welcoming", "legible", "composed", "honest", "uncomplicated"],
+    "register": "brand",
+    "scene": "A prospective patient or caregiver reading on a phone in daylight between other tasks needs legible information and a direct, low-pressure route to contact."
+  },
+  "palette": {
+    "background": "oklch(97% 0.008 75)",
+    "surface": "oklch(99% 0.004 75)",
+    "primary": "oklch(38% 0.085 325)",
+    "secondary": ["oklch(94% 0.009 75)", "oklch(94% 0.018 325)"],
+    "semantic": {
+      "success": "oklch(37% 0.075 155)",
+      "warning": "oklch(42% 0.085 75)",
+      "error": "oklch(40% 0.140 25)",
+      "info": "oklch(38% 0.085 325)"
+    },
+    "text": "oklch(25% 0.015 320)",
+    "mutedText": "oklch(44% 0.015 320)",
+    "decorativeBorder": "oklch(83% 0.010 75)",
+    "controlBorder": "oklch(57% 0.018 320)",
+    "primaryHover": "oklch(33% 0.080 325)",
+    "primaryPressed": "oklch(29% 0.070 325)",
+    "strategy": "Restrained: paper dominates; plum is concentrated on actions, links, and limited identity details. No pure white or black. Verify contrast in rendered states."
+  },
+  "typography": {
+    "display": "Source Sans 3, upright, weight 600; same family for Harbor Wellness text wordmark.",
+    "body": "Source Sans 3, weight 400; labels and actions 600; system-ui, sans-serif fallback.",
+    "notes": [
+      "Prefer self-hosted files with font-display: swap; no required remote font service.",
+      "Body 18px/1.55, supporting text 16px, input text minimum 16px.",
+      "Heading steps approximately 24, 32, 40px; hero fluid 40–64px with 1.08 line-height; other headings 1.2.",
+      "Left-aligned sentence case. Headline width about 18–22ch and prose width about 60–68ch.",
+      "No decorative italic treatment, very light weights, all-caps paragraphs, or gradient text."
+    ]
+  },
+  "layout": {
+    "direction": "Mobile-first public-site composition with open rows, quiet rules, and an asymmetrical text-led opening on wide screens.",
+    "navigation": "Non-sticky top header: Harbor Wellness linked home, Services, Request an appointment. Small-screen labeled Menu reveals an inline region, not an overlay. Section links cover existing visitor information and FAQs without new destinations.",
+    "density": "Spacious with concise content and tight related groups; no oversized empty hero viewport.",
+    "notes": [
+      "Content width maximum 1120px; gutters 20px phone, 32px tablet, 48px wide desktop.",
+      "Spacing scale 4, 8, 12, 16, 24, 32, 48, 64, 88px; section separation 48–88px, varied intentionally.",
+      "Home opening pairs a dominant heading, explanation, primary CTA, and services link with a narrower text-only request-process explanation on wide screens; stack in reading order on mobile.",
+      "Service summaries use open rows and horizontal rules; practical guidance and a contact prompt follow. No repeated icon-card grid.",
+      "Services content uses readable sections; request and receipt use the same public shell with a form column up to 600px.",
+      "Switch navigation near 720px or earlier if content requires. Expose aria-expanded; support Escape and focus return when closing from inside.",
+      "Footer contains only approved practical details and available navigation. No sign-in, sidebar, caregiver portal, or unbuilt destination links.",
+      "No horizontal page scrolling at 320px or 200% zoom; allow wrapping, preserve reading order, and never hide essential content on mobile."
+    ]
+  },
+  "components": {
+    "surfaces": [
+      "Prefer unboxed sections and 1px horizontal rules.",
+      "Use surface panels only for meaningful form or feedback grouping; no nesting.",
+      "Control radius 8px; necessary panel radius at most 12px.",
+      "No decorative shadows, gradients, glass effects, colored side stripes, or blank pseudo-image panels."
+    ],
+    "forms": [
+      "Single-column native controls, visible labels above inputs, minimum 48px height, 20–24px between fields.",
+      "Required requestor name, required preferred contact method, required corresponding email or phone; do not require both channels.",
+      "Optional broad service interest includes an undecided option. Choices must be approved or clearly marked preview placeholders.",
+      "Caregivers enter their own contact information; no additional patient identity or relationship questions.",
+      "No free-text reason, symptoms, history, insurance, dates, attachments, or availability picker.",
+      "Explain that submission requests contact, not a booked appointment, and ask visitors not to include medical information.",
+      "Validate on blur after interaction and on submit; no restrictive name pattern; allow international phone numbers.",
+      "Errors appear below controls with aria-describedby and aria-invalid. Focus first invalid field after submit.",
+      "Preserve values in page memory on validation/network errors; no persistent browser storage for form data."
+    ],
+    "actions": [
+      "Primary filled plum with porcelain text; minimum 48px height. Information-page CTA: Request an appointment. Form CTA: Send request.",
+      "Secondary actions are clear text links; underline links in prose. Full-width submit on narrow screens.",
+      "Do not disable the untouched form because fields are empty; show clear validation on submit.",
+      "Sending request… reflects actual pending submission and prevents duplicate presses. Readable disabled styling with explanatory text when unavailable.",
+      "Distinct hover, focus, pressed, and disabled states. No hover-dependent access to content."
+    ],
+    "dataDisplay": [
+      "Plain-language service sections, short lists, and approved practical visitor details.",
+      "Native disclosures may support FAQs in existing public sections.",
+      "No dashboards, metrics, fabricated trust badges, testimonials, outcome claims, or provider directory."
+    ]
+  },
+  "motion": {
+    "tone": "Minimal and functional",
+    "principles": [
+      "140–180ms color or opacity transitions with ease-out; no animated layout.",
+      "No autoplay, parallax, bounce, scroll choreography, or mandatory entrance animations.",
+      "Respect prefers-reduced-motion; state changes remain understandable without motion.",
+      "Pending feedback is tied to real work, not a staged delay."
+    ]
+  },
+  "accessibility": {
+    "target": "WCAG 2.2 AA design requirements; not a certification.",
+    "principles": [
+      "Verify 4.5:1 normal text contrast and 3:1 large text and essential control/focus contrast.",
+      "3px plum focus outline with 3px offset; porcelain inner separation on plum buttons.",
+      "Touch targets at least 44px, preferably 48px. Keyboard access, skip link, semantic landmarks, logical headings, and visible focus throughout.",
+      "Announce pending and result states accessibly; associate labels, helper text, and errors with fields.",
+      "On real receipt navigation, move focus to the confirmation heading. Errors retain form values and provide retry."
+    ]
+  },
+  "requestFeedback": {
+    "pending": "Sending request… while the actual submission is outstanding; block duplicate presses.",
+    "successGate": "Only positive server acknowledgment of a durably accepted request. Never use a timer, optimistic success, or an unguarded confirmation URL.",
+    "receiptHeading": "Request received",
+    "receiptMeaning": "The practice will contact the visitor. No appointment has been booked. Do not promise a response time without practice approval.",
+    "failure": "Show an honest, retryable inline error and retain values in page memory. Unavailable submission is not success.",
+    "privacy": "Do not put contact details in URLs or echo them in public receipt content.",
+    "returnAction": "Back to home"
+  },
+  "contentAndAssets": {
+    "identity": "Harbor Wellness is the roadmap working practice name. Use a simple text wordmark without inventing a practice emblem.",
+    "favicon": "Preserve the existing user-selected Specode PNG favicon. This does not make Specode the full practice brand.",
+    "imagery": "No new required assets. A deliberate typography-led layout carries identity, without stock clinician, stethoscope, or spa imagery. Future photos must be authentic and approved.",
+    "content": "Clearly identify neutral preview placeholders until practice-approved descriptions, services, practical visitor details, contact/location/hours, and follow-up expectations are supplied.",
+    "prohibitions": [
+      "No invented actual provider facts, credentials, specialties, addresses, testimonials, availability, outcomes, or compliance claims.",
+      "No actionable placeholder phone/email/address links. Replace unverified content before public launch."
+    ]
+  },
+  "constraints": [
+    "Public education and basic no-account appointment requests only; requests are not bookings.",
+    "Do not introduce admin, accounts, calendar, payments, messaging, provider directory, integrations, sensitive intake, or MFA.",
+    "Preserve existing Secure HttpOnly authentication scaffold without auth changes, credential-storage bridges, or persistent session caches.",
+    "Keep authentication scaffold out of the public navigation and request journey."
+  ],
+  "skillsUsed": ["frontend-design"],
+  "skillPackIds": [],
+  "references": [
+    {
+      "label": "Source Sans 3 typography catalog",
+      "url": "https://fonts.google.com/specimen/Source+Sans+3",
+      "imagePath": "",
+      "rationale": "Catalog reference for the font family; not a user-selected brand reference or practice fact."
+    }
+  ],
+  "referenceQueries": []
+}

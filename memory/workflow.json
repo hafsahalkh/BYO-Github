@@ -2,12 +2,15 @@
   "version": 7,
   "stage": "design",
   "pending": {
-    "kind": "question",
+    "kind": "review",
     "phase": "design",
-    "askedAt": "2026-10-12T21:04:17.518Z",
-    "requestedAt": "2026-10-12T21:04:17.518Z",
-    "chatBody": "- **Screenshots are the most useful way to steer the look.** Paste a few shots of a clinic or wellness website you like, such as One Medical, Maven, or Calm, or any other site whose style you want to borrow. Links work too; no new assets are required.\n\n- **For Harbor Wellness, which simple direction feels right** for patients and caregivers exploring care and requesting an appointment: **Warm & Welcoming** (a personal neighborhood practice), **Calm & Clinical** (clear, reassuring care information), or **Quiet & Refined** (a restrained boutique practice)?\n\n- **What should it avoid?** For example, dated patient-portal styling, stock stethoscope photos, or a spa-like feel. Any specific “not that” examples are helpful.\n\nIf you’d rather I choose the direction, just say go and I’ll draft with sensible defaults.",
-    "summary": "Round 1: references, audience-fit mood, and visual anti-patterns; no direction chosen yet."
+    "artifact": "design",
+    "path": "memory/design-brief.md",
+    "version": 1,
+    "askedAt": "2026-10-12T21:08:52.463Z",
+    "requestedAt": "2026-10-12T21:08:52.463Z",
+    "chatBody": "I’m proposing **Grounded Welcome** for your Harbor Wellness website: a simple, approachable design that helps visitors understand your care and reach out without feeling rushed.\n\n**Design direction:**\n- Warm paper backgrounds, deep plum actions, and dark readable text create a restrained identity without generic medical-blue styling.\n- Clear humanist typography, generous headings, and open service sections replace stock photography and repetitive card grids.\n- Simple top navigation becomes a compact inline menu on phones, with a consistent **Request an appointment** action.\n- A short, no-account form collects your visitor’s name, preferred contact method, corresponding contact detail, and optional service interest.\n- Accessible validation and honest loading/error states support the form. **Request received** appears only after actual acceptance and clearly says no appointment has been booked.\n- Your chosen Specode favicon stays; Harbor Wellness gets a simple text wordmark rather than an invented logo.\n\n**Deferred for later:**\n- Live booking, accounts, staff tools, payments, and integrations.\n\nPractice descriptions and contact details remain clearly marked placeholders until you supply approved content.\n\nReply **approve** or **continue** to proceed, or describe any changes you’d like.",
+    "summary": "Grounded Welcome design drafted for Harbor Wellness public website; awaiting design review."
   },
   "questionRounds": {
     "planning": 1,
@@ -23,14 +26,14 @@
     },
     "design": {
       "path": "memory/design-brief.md",
-      "version": null,
-      "archivedPath": null,
-      "contentDigest": null,
+      "version": 1,
+      "archivedPath": "memory/design-briefs/v1-62a5c6468abb0ccc04386c6ecd9c44859e26476c140b60d903e202a2390ff0b1.md",
+      "contentDigest": "sha256:62a5c6468abb0ccc04386c6ecd9c44859e26476c140b60d903e202a2390ff0b1",
       "approvedVersion": null,
       "guidelinesPath": "memory/design-guidelines.json",
-      "guidelinesArchivedPath": null
+      "guidelinesArchivedPath": "memory/design-guidelines/v1-62a5c6468abb0ccc04386c6ecd9c44859e26476c140b60d903e202a2390ff0b1.json"
     }
   },
-  "lastSummary": "Initial design discovery: requested visual references, simple audience-fit direction, and anti-references for Harbor Wellness.",
-  "updatedAt": "2026-10-12T21:04:17.597Z"
+  "lastSummary": "Grounded Welcome design drafted for Harbor Wellness public website; awaiting design review.",
+  "updatedAt": "2026-10-12T21:08:52.551Z"
 }

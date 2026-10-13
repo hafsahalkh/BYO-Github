@@ -20,8 +20,8 @@ dist-ssr
 .env.*
 !.env.example
 
-# Convex generated files
-convex/_generated/
+# Keep Convex's generated API, server utilities, and data-model types in source.
+# Clean frontend/publish builds import these before deployment codegen may run.
 
 # Editor directories and files
 .vscode/*

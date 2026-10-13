@@ -9,10 +9,10 @@
   "artifacts": {
     "roadmap": {
       "path": "memory/roadmap.md",
-      "version": 4,
-      "archivedPath": "memory/roadmaps/v4-94e3d1ac0a1ff8842553cb78ea3720fb37f31a3f0568cc3b6bf02dade1f2a9f7.md",
-      "contentDigest": "sha256:94e3d1ac0a1ff8842553cb78ea3720fb37f31a3f0568cc3b6bf02dade1f2a9f7",
-      "approvedVersion": 4
+      "version": 5,
+      "archivedPath": "memory/roadmaps/v5-48387fdeaa0f99c8965d16ab2a86da2ead3aa75b8067bf994dc3678e83cc97d5.md",
+      "contentDigest": "sha256:48387fdeaa0f99c8965d16ab2a86da2ead3aa75b8067bf994dc3678e83cc97d5",
+      "approvedVersion": 5
     },
     "design": {
       "path": "memory/design-brief.md",
@@ -24,6 +24,6 @@
       "guidelinesArchivedPath": "memory/design-guidelines/v2-fe6490bf521e6d9f2736708f3167ea65bc6608d5841f25bc9102a599a3372223.json"
     }
   },
-  "lastSummary": "Approved favicon removal only; preserve all current website styling and behavior.",
-  "updatedAt": "2026-10-13T18:34:50.611Z"
+  "lastSummary": "Recorded narrow TS2307 build remediation and actual lint/typecheck/production build checks. No product scope or design change; remaining MVP content and operational handling remain pending.",
+  "updatedAt": "2026-10-13T19:49:44.355Z"
 }

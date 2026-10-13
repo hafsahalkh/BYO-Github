@@ -1,7 +1,14 @@
 {
   "version": 7,
   "stage": "implementation",
-  "pending": null,
+  "pending": {
+    "kind": "question",
+    "phase": "implementation",
+    "askedAt": "2026-10-13T20:15:31.056Z",
+    "requestedAt": "2026-10-13T20:15:31.056Z",
+    "chatBody": "To fix this **while keeping requests enabled**, I need evidence that a signed BAA covers your hosted backend and appointment-request data. A code change cannot establish that agreement, and I won’t invent confirmation.\n\nCan you provide a non-sensitive agreement reference identifying the covered vendor, deployment, and effective date, or authorize me to **disable request collection**? Disabling collection means removing the frontend transmission and blocking backend submissions, while keeping your information pages intact. A frontend-only toggle would not be enough.\n\nWithout agreement evidence, disabling collection is the fix I can implement and submit for targeted verification.",
+    "summary": "Need actual BAA coverage evidence or explicit authorization to disable collection for HIPAA-UI-009 issue 5b79150a-67cb-4e65-9425-6b4718c9b236; do not fabricate contractual proof."
+  },
   "questionRounds": {
     "planning": 1,
     "design": 1
@@ -24,6 +31,6 @@
       "guidelinesArchivedPath": "memory/design-guidelines/v2-fe6490bf521e6d9f2736708f3167ea65bc6608d5841f25bc9102a599a3372223.json"
     }
   },
-  "lastSummary": "User asks to assume BAA confirmed; no evidence supplied and no authorization to disable request submissions or dismiss recorded finding.",
-  "updatedAt": "2026-10-13T20:14:50.291Z"
+  "lastSummary": "Remediation requested but enabled collection requires actual BAA evidence; awaiting coverage evidence or authorization to disable collection rather than fabricating confirmation.",
+  "updatedAt": "2026-10-13T20:15:31.131Z"
 }

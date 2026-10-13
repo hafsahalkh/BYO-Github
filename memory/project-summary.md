@@ -22,7 +22,7 @@
 
 ## Visual and Interaction Direction
 - Grounded Welcome was approved and implemented: warm paper, deep plum, locally hosted Source Sans 3, left-aligned typography-led composition, open service rows, and minimal functional motion. No photography, emblems, or card grids.
-- Preserve the expressly selected existing Specode PNG favicon; it does not establish Specode as the full practice brand. Use the Harbor Wellness working practice name as a simple text wordmark.
+- The latest approved preference is no favicon: remove the PNG asset and HTML icon reference without replacement. Preserve logo.svg and use the Harbor Wellness working practice name as a simple text wordmark.
 - Public responsive top navigation, inline mobile menu, and a single-column basic request form. Collect requestor name, preferred contact method and its corresponding contact detail, plus optional broad service interest; caregivers provide their own contact details.
 - Receipt is shown only after actual durable server acceptance, guarded by in-memory acknowledgment; refresh/direct entry returns to the request form. No fake success, appointment confirmation, or promised response time. Form values remain in page memory on failure, states are announced accessibly, and contact details stay out of URLs, public receipt, logs, and persistent browser storage.
 

@@ -1,7 +1,14 @@
 {
   "version": 7,
   "stage": "implementation",
-  "pending": null,
+  "pending": {
+    "kind": "question",
+    "phase": "implementation",
+    "askedAt": "2026-10-13T20:08:32.920Z",
+    "requestedAt": "2026-10-13T20:08:32.920Z",
+    "chatBody": "This is recorded as an open **HIPAA-UI-009** finding. The current form sends names, contact details, and care interests to the hosted backend. I cannot confirm a signed BAA covering this deployment from the available evidence; missing repository documentation alone does not prove no agreement exists.\n\nWould you like me to disable request submission until BAA coverage is confirmed? I would block the frontend transmission and backend acceptance, show an honest unavailable message, and leave your information pages unchanged. Removing service interest alone would not necessarily remove the care-linked context.",
+    "summary": "Awaiting authorization to fail-close care-linked request collection for HIPAA-UI-009 issue 5b79150a-67cb-4e65-9425-6b4718c9b236; BAA coverage unverified."
+  },
   "questionRounds": {
     "planning": 1,
     "design": 1
@@ -24,6 +31,6 @@
       "guidelinesArchivedPath": "memory/design-guidelines/v2-fe6490bf521e6d9f2736708f3167ea65bc6608d5841f25bc9102a599a3372223.json"
     }
   },
-  "lastSummary": "Recorded narrow TS2307 build remediation and actual lint/typecheck/production build checks. No product scope or design change; remaining MVP content and operational handling remain pending.",
-  "updatedAt": "2026-10-13T19:49:44.355Z"
+  "lastSummary": "Confirmed current identity-plus-care-context transmission and recorded open finding; no code change or scan initiated.",
+  "updatedAt": "2026-10-13T20:08:33.004Z"
 }

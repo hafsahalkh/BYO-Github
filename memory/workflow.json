@@ -1,7 +1,17 @@
 {
   "version": 7,
   "stage": "design",
-  "pending": null,
+  "pending": {
+    "kind": "review",
+    "phase": "design",
+    "artifact": "design",
+    "path": "memory/design-brief.md",
+    "version": 2,
+    "askedAt": "2026-10-13T18:30:43.730Z",
+    "requestedAt": "2026-10-13T18:30:43.730Z",
+    "chatBody": "Your website will keep its current styling, with no favicon.\n\n**What changes:**\n- Remove the favicon image from the published assets.\n- Remove the favicon reference from the website.\n- Keep your pages, navigation, request form, typography, and colors unchanged.\n\nYour latest request replaces the earlier preference to keep the Specode favicon. No removal has been made yet.\n\nReply **approve** or **continue** to proceed with removal.",
+    "summary": "Restore missing design v2 review; latest explicit removal instruction overrides existing favicon preservation text. No wider visual changes."
+  },
   "questionRounds": {
     "planning": 1,
     "design": 1
@@ -24,6 +34,6 @@
       "guidelinesArchivedPath": "memory/design-guidelines/v2-fe6490bf521e6d9f2736708f3167ea65bc6608d5841f25bc9102a599a3372223.json"
     }
   },
-  "lastSummary": "Remove favicon as explicitly requested; no other design or website scope changes. Existing design review arose only from approval-status wording.",
-  "updatedAt": "2026-10-13T17:05:50.734Z"
+  "lastSummary": "Favicon removal requested; restored missing review needed to unblock execution of tiny asset fix.",
+  "updatedAt": "2026-10-13T18:30:43.807Z"
 }

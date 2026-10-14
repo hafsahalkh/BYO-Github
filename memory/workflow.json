@@ -9,10 +9,10 @@
   "artifacts": {
     "roadmap": {
       "path": "memory/roadmap.md",
-      "version": 6,
-      "archivedPath": "memory/roadmaps/v6-503657938f19707884ceb25e7e94ba5354a157db22feb1f140e46b09b685f959.md",
-      "contentDigest": "sha256:503657938f19707884ceb25e7e94ba5354a157db22feb1f140e46b09b685f959",
-      "approvedVersion": 6
+      "version": 7,
+      "archivedPath": "memory/roadmaps/v7-2a25d34d8f244e6ac591e31a7374aa38e93a27fd74e08ad4c5e3ce5e76a8acb8.md",
+      "contentDigest": "sha256:2a25d34d8f244e6ac591e31a7374aa38e93a27fd74e08ad4c5e3ce5e76a8acb8",
+      "approvedVersion": 7
     },
     "design": {
       "path": "memory/design-brief.md",
@@ -24,6 +24,6 @@
       "guidelinesArchivedPath": "memory/design-guidelines/v2-fe6490bf521e6d9f2736708f3167ea65bc6608d5841f25bc9102a599a3372223.json"
     }
   },
-  "lastSummary": "Request collection disabled as authorized; no form/SDK transmission or false receipt, zero-argument backend rejects without writes. Existing records/audit history, information pages, auth and favicon preserved. Lint/frontend and backend typechecks, Vite build, backend sync and safe endpoint rejection checks passed. Completed targeted scan 71e90475-2cdc-47f1-8adb-5b680ec8f6a1 verified exact HIPAA-UI-009 issue 5b79150a-67cb-4e65-9425-6b4718c9b236 fixed. Frontend publishing still needed; request re-enablement requires verified agreement coverage and separate authorization. Remaining next slice: approved practice/visitor content.",
-  "updatedAt": "2026-10-13T20:18:48.947Z"
+  "lastSummary": "Recorded completed narrow unused-PNG publishing fix and passing frontend checks; approved scope and remaining next steps unchanged.",
+  "updatedAt": "2026-10-14T18:44:11.435Z"
 }
